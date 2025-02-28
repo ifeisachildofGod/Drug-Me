@@ -1,0 +1,324 @@
+body {
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body div {
+    padding: 20px;
+}
+
+
+
+
+
+#introduction {
+    display: flex;
+    background-color: rgb(0, 136, 255);
+}
+
+#introduction div {
+    width: 100%;
+    height: 100%;
+}
+
+#intro-text-area h1 {
+    font-size: 70px;
+    text-align: left;
+    font-weight: bold;
+    color: white;
+}
+
+#intro-text-area p {
+    text-align: left;
+    color: rgb(209, 209, 209);
+    word-spacing: 5px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+#intro-main-image {
+    display: flex;
+}
+
+#intro-main-image img {
+    width: 100%;
+    place-self: center;
+}
+
+
+
+
+#about {
+    display: flex;
+}
+
+#about div {
+    width: 100%;
+    height: 100%;
+}
+
+#about div h2 {
+    text-align: right;
+}
+
+#about div p {
+    text-align: right;
+    color: rgb(66, 66, 66);
+    word-spacing: 5px;
+    line-height: 25px;
+}
+
+
+
+#products {
+    background-color: rgb(0, 136, 255);
+}
+
+#products h1 {
+    text-align: center;
+    color: white;
+}
+
+#products div {
+    width: 100%;
+    display: flex;
+    place-content: center;
+    padding: 0px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#products div.products-text-info {
+    width: 50%;
+    display: flex;
+    place-self: center;
+    place-content: center;
+}
+
+#products div.products-text-info p {
+    color: rgb(199, 199, 199);
+    text-align: center;
+    word-spacing: 5px;
+    line-height: 25px;
+}
+
+
+
+#testimonies {
+    background-color: white;
+}
+
+#testimonies div {
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+    gap: 20px;
+}
+
+#testimonies h1 {
+    text-align: center;
+}
+
+.testimony {
+    width: 350px;
+    border-radius: 10px;
+    background-color: rgb(0, 136, 255);
+}
+
+.testimony p {
+    margin: 20px;
+    text-align: center;
+    color: rgb(199, 199, 199);
+    word-spacing: 5px;
+}
+
+.testimony h5 {
+    margin: 20px;
+    color: white;
+}
+
+
+
+
+
+#contactus {
+    background-color: rgb(0, 136, 255);
+}
+
+#contactus h1 {
+    text-align: center;
+    color: white;
+}
+
+#contactform {
+    place-self: center;
+}
+
+.formsection {
+    margin: 20px;
+}
+
+.text-input {
+    width: 300px;
+    height: 50px;
+    outline: none;
+    border: 1px solid black;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.buttonsection {
+    display: flex;
+    width: 100%;
+    place-content: center;
+    gap: 10px;
+}
+
+.buttonsection input {
+    width: 200px;
+    height: 40px;
+    /* border-radius: 20px;
+    outline: none;
+    border: 1px solid black; */
+}
+
+
+
+
+
+footer {
+    --padding: 50px;
+
+    width: calc(100% - (var(--padding) * 2));
+    background-color: black;
+    padding: var(--padding);
+}
+
+#footer-main-info {
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+#footer-main-info div {
+    width: 100%;
+    /* align-content: center;
+    align-items: center; */
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: center;
+    justify-items: center;
+}
+
+#footer-main-info * span {
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+}
+
+#footer-main-info div .text-3 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-main-info-options {
+    display: block;
+}
+
+.footer-main-info-options span {
+    margin-bottom: 20px;
+}
+
+.footer-main-info-menu-option {
+    color: white;
+    align-content: center;
+    text-decoration: none;
+    word-spacing: 5px;
+    line-height: 25px;
+}
+
+.footer-main-info-menu-option img {
+    height: 20px;
+    margin-right: 20px;
+}
+
+
+a.footer-main-info-menu-option:hover {
+    color: rgb(139, 139, 139);
+}
+
+#copyright-text {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    place-content: center;
+}
+
+#copyright-text a {
+    cursor: pointer;
+    color: rgb(0, 140, 255);
+    text-decoration: none;
+}
+
+#copyright-text span {
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    border-top: solid 1px rgb(219, 219, 219);
+}
+
+
+
+
+.link {
+    text-decoration: none;
+    color: rgb(0, 140, 255);
+}
+
+.link:hover {
+    color: rgb(0, 94, 170);
+}
+
+.link-button-light {
+    width: 300px;
+    height: 50px;
+    border: none;
+    text-decoration: none;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: rgb(0, 140, 255);
+    color: white;
+}
+
+.link-button-light:hover {
+    cursor: pointer;
+    color: rgb(0, 140, 255);
+    background-color: white;
+}
+
+
+.link-button-dark {
+    width: 300px;
+    height: 50px;
+    border: none;
+    text-decoration: none;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: white;
+    color: rgb(0, 65, 119);
+}
+
+.link-button-dark:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(0, 65, 119);
+}
