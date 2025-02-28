@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main  # Trigger the workflow on push to the main branch
-  schedule:
-    - cron: '0 0 * * 0'  # Additionally, run weekly (every Sunday at 00:00 UTC)
 
 jobs:
   build:
@@ -21,11 +19,11 @@ jobs:
 
       - name: Install generate-sitemap
         run: |
-          pip install generate-sitemap
+          pip install sitemap-generator
 
       - name: Generate sitemap
         run: |
-          generate-sitemap --url https://ifeisachildofgod.github.io/Drug-Me/ --output sitemap.xml
+          sitemap-generator --url https://ifeisachildofgod.github.io/Drug-Me/ --output sitemap.xml
 
       - name: Commit and push sitemap
         run: |
