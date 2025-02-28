@@ -50,6 +50,7 @@ body div {
 
 #about {
     display: flex;
+    padding-left: 0px;
 }
 
 #about div {
